@@ -29,6 +29,14 @@ class User implements Account
 	 public function getFullName (){ 
 	        	return $this->fName;      
 	} 
+	
+	public function setEmail($em){
+		$this->email = $em;
+	}
+
+	public function getEmail(){
+		return $this->email;
+	}
 
 	public function setCityOfResidence($res){
 		$this->cor= $res;
@@ -90,7 +98,9 @@ class User implements Account
 
 	
 	public function changePassword($pdo){
-
+		//statement to select a user with entered email to send
+		//check if email is in db
+		
 	}
 	public function logout($pdo){
 
