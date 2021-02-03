@@ -1,0 +1,97 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+.main{
+	background-image: url(images/mrun.jpg);
+	height: 100vh;
+	background-size: cover;
+	background-position: center;
+}
+.mainBox{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	min-height: 500px;
+	transform: translate(-50%,-50%);
+	text-align: center;
+	z-index: 999;
+	padding: 60px 32px;
+	background-color: rgba(255,255,255,0.04);
+	box-shadow: -1px 4px 28px 0px rgba(0,0,0,0.75);
+ }
+.content{
+	position: relative;
+	height: 45px;
+	width: 100%;
+	display: flex;
+	line-height: 50px;
+
+}
+.content input{
+	display: block;
+	outline: white;
+	padding: 15px 10px;
+	margin: 10px;
+	border:solid 1px #A2B4A9;
+	background: none;
+	color: white;
+}
+::-webkit-input-placeholder{
+	color: white;
+}
+.header a{
+	color: black;
+	text-decoration: none;
+	margin: 15px;
+	text-align: center;
+	font-weight: bold;
+}
+header{ 
+	text-align: center;
+}
+header p{
+	font-style: sans-serif;
+	color: white;
+	display: block;
+	font-size: 30px;
+	font-weight: 100;
+}
+
+
+.main2{
+	background-image: url(images/landingP.jpg);
+	height: 100vh;
+	background-size: cover;
+	background-position: center;
+}
+.profimg{
+	height: 100px;
+	background: #CDD7D1;
+
+}
+.profimgC img{
+	background: white;
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+	padding: 5px;
+
+}
+.words{
+	color: white;
+	height: 280px;
+	background: #865034;
+	font-size: 30px;
+	text-align: center;
+	line-height: 50px;
+}
+.btn{
+	padding: 12px 20px;
+	background: #CDD7D1;
+	border:none;
+	color: black;
+	border-radius: 30px;
+
+}
