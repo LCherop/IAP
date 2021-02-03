@@ -15,6 +15,7 @@ if($_POST['register']){
 
 	$user = new User($fName,$email,$cor,$password,$prof);        
 	$user->setFullName($fName); 
+	$user->setEmail($email);
 	$user->setCityOfResidence($cor);
 	$user->setProfilePic($prof);
 	echo $user->register($pdo); 
