@@ -65,7 +65,8 @@ class User implements Account
 
 			
 
-			return "User has joined successfully";    
+			return "User has joined successfully";  
+			header("Location: landingPage.php");
 		} catch (PDOException $e) {    	
 			return $e->getMessage();    }}
 
@@ -80,7 +81,8 @@ class User implements Account
 			 if($row == null){                	
 			 	return "This account does not exist";}                
 			 	if (password_verify($this->passW,$row['password'])){                	
-			 		return "Login successfull";                
+			 		return "Login successfull"; 
+					header("Location: landingPage.php");
 			 	}    
 
 		       return "Incorrect credentials";    
