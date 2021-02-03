@@ -13,12 +13,9 @@
 	<div class="content">
 		<form>
 			<span></span>
-			<input type="Password" name="passO" placeholder="Old Password">
+			<input type="email" name="Uemail" placeholder="Email">
 
-			<span></span>
-			<input type="Password" name="passN" placeholder="New Password">
-
-			<input type="submit" name="Reset Password">
+			<input type="submit" name="rp" value="Request To Reset Password" style="background-color: black;">
 
 			<a href="login.php" class="btn">Back to Login Page</a>
 		</form>
